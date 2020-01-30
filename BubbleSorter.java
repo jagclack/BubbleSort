@@ -1,7 +1,7 @@
 package com.sparta.jc.javabasic;
 
 public class BubbleSorter {
-    public void bubbleSort(int arr[]) {
+    public static void bubbleSort(int arr[]) {
         int arrayLength = arr.length;
 
         for (int i = 0; i < arrayLength - 1; i++)
